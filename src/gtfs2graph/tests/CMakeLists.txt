@@ -1,0 +1,5 @@
+﻿include_directories(
+        ${LOOM_INCLUDE_DIR}
+)
+add_executable(gtfs2graphTest TestMain.cpp)
+target_link_libraries(gtfs2graphTest gtfs2graph_dep ad_cppgtfs)
